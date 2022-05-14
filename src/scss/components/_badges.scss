@@ -1,0 +1,8 @@
+.badge-dimmed {
+	@each $color, $value in $theme-colors {
+		&.badge-#{$color} {
+			background-color: rgba($value, 17.5%);
+			color: $value;
+		}
+	}
+}

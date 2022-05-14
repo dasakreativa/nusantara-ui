@@ -1,0 +1,8 @@
+.form-control {
+	transition: all .2s;
+
+	&:focus {
+		border-color: $primary;
+		box-shadow: none;
+	}
+}

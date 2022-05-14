@@ -1,0 +1,15 @@
+@use "sass:math";
+
+@function color-yiq($color) {
+  $r: red($color) * 299;
+  $g: green($color) * 587;
+  $b: blue($color) * 114;
+
+  $yiq: math.div(($r + $g + $b), 1000);
+
+  @if ($yiq >= 150) {
+    @return $dark;
+  } @else {
+    @return $white;
+  }
+}

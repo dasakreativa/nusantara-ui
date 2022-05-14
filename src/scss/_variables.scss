@@ -1,0 +1,49 @@
+// Colors
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #1778EB !default;
+$indigo:  #7F0CF5 !default;
+$purple:  #5C11A8 !default;
+$pink:    #F0386B !default;
+$red:     #F23030 !default;
+$orange:  #F28705 !default;
+$yellow:  #FFB000 !default;
+$green:   #0BD39A !default;
+$teal:    #0FFF95 !default;
+$cyan:    #51B4fD !default;
+
+$min-contrast-ratio:   1.5 !default;
+
+$primary:       $blue !default;
+$secondary:     $purple !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Box Shadow
+$box-shadow:	0 2px 12px rgb($gray-700, 10%) !default;
+$box-shadow-lg:	0 4px 24px rgb($gray-700, 25%) !default;
+$box-shadow-sm:	0 2px 12px rgb($gray-700, 7.5%) !default;
+
+// Fonts
+$headings-font-family:			-apple-system, BlinkMacSystemFont, "Nunito", "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:		-apple-system, BlinkMacSystemFont, "Roboto", "Roboto", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:			SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:				$font-family-sans-serif !default;
+$headings-font-weight:			700 !default;
+$font-size-base:				.9rem !default;
+
+$fa-font-path: "../webfonts";
