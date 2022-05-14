@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+
+@import './functions/colors';
+
+@import '~select2/dist/css/select2.min.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import '~remixicon/fonts/remixicon.css';
+
+@import './components/forms';
+@import './components/badges';
+@import './components/alerts';
+@import './components/dropdowns';
+
+@import './plugins/select2/select2.scss';
+@import './plugins/remixicons.scss';
